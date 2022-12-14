@@ -1,0 +1,39 @@
+[
+    {
+        "sessionID": "4001",
+        "CoachID": "C1001",
+        "location": "Yishun Swimming Complex",
+        "sessiondate": "2022/01/03",
+        "sessiontime": "1300",
+        "stuattending": ["S1001"],
+        "payreceived": ["S1001"]
+    },
+    {
+        "sessionID": "4002",
+        "CoachID": "C1002",
+        "location": "Bishan Swimming Complex",
+        "sessiondate": "2022/01/05",
+        "sessiontime": "1300",
+        "stuattending": ["S1001","S1002","S1004"],
+        "payreceived": ["S1001","S1002"]
+    },
+    {
+        "sessionID": "4003",
+        "CoachID": "C1001",
+        "location": "Yishun Swimming Complex",
+        "sessiondate": "2022/01/07",
+        "sessiontime": "1600",
+        "stuattending": ["S1001","S1003","S1002"],
+        "payreceived": ["S1001","S1002","S1003"]
+    },
+    {
+        "sessionID": "4004",
+        "CoachID": "C1003",
+        "location": "Bishan Swimming Complex",
+        "sessiondate": "2022/01/09",
+        "sessiontime": "1600",
+        "stuattending": ["S1001","S1004"],
+        "payreceived": ["S1001"]
+    }
+
+]

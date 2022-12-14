@@ -1,0 +1,32 @@
+{{#extends 'base'}}
+{{#block "content"}}
+    <h1>Submit New Item</h1>
+    <form id="additem">
+        <div class="form-group">
+            <label for="itemname">Item Name</label>
+            <input type="text" id="name" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="itemdescription">Item Description</label><br>
+            <textarea rows="3" name="description" id="description"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="itemtype">Item Type</label>
+            <input type="radio" name='type' id="type" value='main' required/><label>Main</label>
+            <input type="radio" name='type' id="type" value='side' required/><label>Side</label>
+        </div>
+        <div class="form-group">
+            <label for="itemcategory">Item category</label>
+            <select id="category">
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+                <option value="spcial">Special</option>
+            </select>
+        </div>
+        <button id="submit">Submit</button>
+
+
+    </form>
+{{/block}}
+{{/extends}}

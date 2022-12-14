@@ -1,0 +1,25 @@
+[
+    {
+        "CoachID": "C1001",
+        "CoachName": "Michael Phelps",
+        "YearStart": "2000"
+        
+    },
+    {
+        "CoachID": "C1002",
+        "CoachName": "Lara Croft",
+        "YearStart": "1992"
+        
+    },
+    {
+        "CoachID": "C1003",
+        "CoachName": "JJ Lin",
+        "YearStart": "2009"
+        
+    }
+
+
+
+
+
+]

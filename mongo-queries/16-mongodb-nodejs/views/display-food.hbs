@@ -1,0 +1,28 @@
+{{#extends "base"}}
+    {{#block "content"}}
+    <h1>success</h1>
+
+    <a href="add-food" class="btn btn-primary">Add new food item</a>
+
+    <table class>
+        <thead>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Halal</th>
+            <th>Actions</th>
+        </thead>
+        <tbody>
+            {{#each foodRecords}}
+            <tr>
+                <td>{{this.Name}}</td>
+                <td>{{this.Price}}</td>
+                <td>{{this.Halal}}</td>
+                <td><a href="#" class="btn btn-primary btn-sm">Edit</a>
+                <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                <a href="#" class="btn btn-primary btn-sm">Details</a></td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+    {{/block}}
+{{/extends}}

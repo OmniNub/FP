@@ -1,0 +1,26 @@
+[
+    {
+        "NokID": "P001",
+        "NokName": "Dennis",
+        "Relationship": "Father",
+        "Students": ["S1002", "S1004"],
+        "PayMtd": "PayNow"
+    },
+    {
+        "NokID": "P002",
+        "NokName": "Jessica",
+        "Relationship": "Mother",
+        "Students": ["S1001"],
+        "PayMtd": "Credit Card"
+    },
+    {
+        "NokID": "P003",
+        "NokName": "Bryan",
+        "Relationship": "Uncle",
+        "Students": ["S1003"],
+        "PayMtd": "Credit Card"
+    }
+
+
+
+]

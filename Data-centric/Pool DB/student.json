@@ -1,0 +1,32 @@
+[
+    {
+        "StuId": "S1001",
+        "StuName": "Johnny Depp",
+        "SkillLevel": "Expert",
+        "DoB": "10/02/1992",
+        "sessions": [4001,4002,4003,4004]
+    },
+    {
+        "StuId": "S1002",
+        "StuName": "Christina",
+        "SkillLevel": "Beginner",
+        "DoB": "23/05/2000",
+        "sessions": [4002,4003]
+    },
+    {
+        "StuId": "S1003",
+        "StuName": "Trisha",
+        "SkillLevel": "Intermediate",
+        "DoB": "04/11/1995",
+        "sessions": [4003,4004]
+    },
+    {
+        "StuId": "S1004",
+        "StuName": "Danny Phantom",
+        "SkillLevel": "Expert",
+        "DoB": "9/11/2001",
+        "sessions": [4002,4004]
+    }
+
+
+]
