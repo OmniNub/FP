@@ -110,6 +110,7 @@ export default class TaskList extends React.Component{
             <li key={t.id}>
                         {t.description}
                         <input type='checkbox' checked={t.done === true} onChange={() => {this.checkTask(t.id)}}></input>
+                        
                         <button onClick={async () => {
                             this.setState({
                                 taskBeingEdited: t.id,
